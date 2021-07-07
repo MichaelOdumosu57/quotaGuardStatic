@@ -48,7 +48,7 @@ heroku git:remote -a  my-app
 ```ps1
 heroku buildpacks:add --index 1 heroku-community/apt
 heroku buildpacks:add --index 2 heroku/python 
-heroku buildpacks:add --index 3 https://github.com/matt-bertoncello
+heroku buildpacks:add --index 3 https://github.com/matt-bertoncello/python-pyodbc-buildpack.git
 ```
 
 ## QuotaGuardStatic
