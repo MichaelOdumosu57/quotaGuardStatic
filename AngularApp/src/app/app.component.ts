@@ -10,6 +10,7 @@ export class AppComponent {
     constructor(
         private http:HttpClient
     ){}
+    
     title = 'Simple QuotaGuardStatic';
 
     button = {
